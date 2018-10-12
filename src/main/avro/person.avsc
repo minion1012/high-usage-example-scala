@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "namespace": "com.xin.avro",
+  "name": "Person",
+  "fields": [
+    {"name": "firstName", "type": "string"},
+    {"name": "lastName", "type": "string"}
+  ]
+}

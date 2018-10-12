@@ -1,0 +1,10 @@
+{
+    "type": "record",
+    "namespace": "com.xin.avro",
+    "name": "Record",
+    "fields": [{
+            "name": "str",
+            "type": "string"
+        }
+    ]
+}
