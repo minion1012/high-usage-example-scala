@@ -25,3 +25,5 @@ libraryDependencies += "com.typesafe" % "config" % "1.3.2"
 // detail: https://github.com/julianpeeters/sbt-avrohugger
 sourceGenerators in Compile += (avroScalaGenerate in Compile).taskValue
 avroSourceDirectories in Compile += baseDirectory.value / "avro"
+
+enablePlugins(DockerPlugin)
