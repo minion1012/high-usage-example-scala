@@ -27,3 +27,7 @@ sourceGenerators in Compile += (avroScalaGenerate in Compile).taskValue
 avroSourceDirectories in Compile += baseDirectory.value / "avro"
 
 enablePlugins(DockerPlugin)
+
+
+enablePlugins(JavaAppPackaging)
+
